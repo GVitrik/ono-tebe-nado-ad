@@ -1,1 +1,134 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    padding: 92px 50px 96px 50px;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+}
+
+.header__links-list {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+}
+
+.header__links-list-item {
+    text-decoration: underline;
+    text-underline-offset: 3.5px;
+    text-decoration-thickness: 1px;
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+
+.logo {
+    width: 148px;
+    height: 105px;
+}
+
+address {
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    justify-self: end;
+    align-items: flex-start;
+}
+
+.cover {
+    position: relative;
+    background-image: url(../images/cover.jpg);
+    min-height: 757px;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+    position: relative;
+    z-index: 1;
+    padding-top: 165px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 100px;
+    line-height: 1.2;
+    letter-spacing: 30px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+.aligned-text {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.aligned-text_left {
+    text-align: left;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.cover__description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.cover__description-text {
+    letter-spacing: 0;
+    word-spacing: 0.9em;
+}
+
+.word-spacing-short {
+    word-spacing: 0.8em;
+}
+
+.word-spacing-medium {
+    word-spacing: 0.9em;
+}
+
+.word-spacing-large {
+    word-spacing: 1.1em;
+}
+
+.bet-button {
+    background: transparent;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+}
+
+.lots {
+
+}
+
+.about {
+
+}
+
+.footer {
+
+}
